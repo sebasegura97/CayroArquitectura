@@ -1,0 +1,36 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+figure{
+  margin: 0;
+}
+figure img{
+  width: 25vw;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 25vh;
+  padding-left:  10vw;
+  padding-right: 10vw;
+}
+.shadow{
+  box-shadow: -4px 2px 6px rgba(0, 0, 0, 0.5);
+}
+.menu{
+
+}
+.menu a{
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: #1B1215;
+  margin-right: 5px;
+}
