@@ -2,15 +2,23 @@ body{
   margin: 0;
   padding: 0;
   width: 100vw;
-  height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content:flex-start;
+  flex-direction: column;
 }
 figure{
   margin: 0;
 }
 figure img{
-  width: 25vw;
+  height: 15vh;
+}
+.subtitle{
+  color: black;
+  font-size: 3vw;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-left: 0
 }
 .header{
   display: flex;
@@ -18,9 +26,10 @@ figure img{
   align-items: center;
   justify-content: space-between;
   width: 100vw;
-  height: 25vh;
-  padding-left:  10vw;
-  padding-right: 10vw;
+  height: 20vh;
+  padding-left:  5vw;
+  padding-right: 5vw;
+  z-index: 3;
 }
 .shadow{
   box-shadow: -4px 2px 6px rgba(0, 0, 0, 0.5);
@@ -31,6 +40,120 @@ figure img{
 .menu a{
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
+  font-size: 18px;
   color: #1B1215;
   margin-right: 5px;
+  font-weight:900;
+}
+
+/*SLIDER PORTADA*/
+.mySlides {
+  display:none;
+  height: 80vh;
+  width: 100%;}
+
+.portada{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.textoPortada{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  height: 30vh;
+  width: 90vw;
+  z-index: 3;
+}
+.textoPortada h1{
+  font-size: 8vw;
+  color: white;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  text-shadow: -4px 2px 4px rgba(0, 0, 0, .5);
+
+}
+.textoPortada h3{
+  text-align: center;
+  font-size: 3vw;
+  font-family: 'Montserrat';
+  color: white;
+  text-shadow: -4px 2px 4px rgba(0, 0, 0, .5);
+
+}
+.rectangle{
+  position: absolute;
+  width: 100vw;
+  height: 80vh;
+  background-color: rgba(0, 0, 0, .5);
+  z-index: 2;
+}
+.button{
+  font-family: 'Montserrat';
+  text-decoration: none;
+  color: white;
+  background-color: #F46219;
+  border-radius: 5px;
+  padding: 15px 10px 15px 10px;
+  box-shadow: -4px 4px 4px rgba(0, 0, 0, .5);
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: 800;
+}
+.rectangleNaranja{
+  height: 3pt;
+  width: 40vh;
+  background-color: #F46219;
+}
+.nuestrosServicios{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.containerServicios{
+  display: flex;
+  width: 100vw;
+  height: 80vh;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.descripcionServicios{
+  display: flex;
+  flex-direction: row;
+  width: 40vw
+}
+.titulo{
+  height: 20vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  width: 100vw;
+}
+.circle{
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: #F46219;
+
+}
+.material-icons.md72{
+    font-size: 50px;
+    color: white
+  }
+.textoServicios{
+  margin-left: 3vw;
+  width: 30vw;
+}
+.textoServicios h4{
+  font-family: 'Montserrat';
 }
