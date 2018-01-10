@@ -12,13 +12,32 @@ figure{
 figure img{
   height: 15vh;
 }
+body h1{
+  font-size: 8vw;
+  color: white;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  text-shadow: -4px 2px 4px rgba(0, 0, 0, .5);
+
+}
+body h3 {
+  font-size: 20pt;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+}
+body p {
+  font-family: Lato, sans-serif;
+  font-size: 14pt;
+  font-weight: 300;
+}
 .subtitle{
   color: black;
-  font-size: 3vw;
-  font-family: 'Montserrat';
+  font-size: 24pt;
+  font-family: Montserrat, sans-serif;
   text-transform: uppercase;
-  font-weight: 600;
-  margin-left: 0
+  font-weight: 700;
+  line-height: 1.43;
+  margin-left: 0;
 }
 .header{
   display: flex;
@@ -30,26 +49,27 @@ figure img{
   padding-left:  5vw;
   padding-right: 5vw;
   z-index: 3;
+  position: absolute;
+  color: transparent;
 }
 .shadow{
   box-shadow: -4px 2px 6px rgba(0, 0, 0, 0.5);
 }
-.menu{
 
-}
 .menu a{
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   font-size: 18px;
-  color: #1B1215;
+  /*color: #1B1215;*/
+  color: white;
   margin-right: 5px;
-  font-weight:900;
+  font-weight: 500;
 }
 
 /*SLIDER PORTADA*/
 .mySlides {
   display:none;
-  height: 80vh;
+  height: 100vh;
   width: 100%;}
 
 .portada{
@@ -68,17 +88,10 @@ figure img{
   width: 90vw;
   z-index: 3;
 }
-.textoPortada h1{
-  font-size: 8vw;
-  color: white;
-  font-family: 'Montserrat';
-  font-weight: 800;
-  text-shadow: -4px 2px 4px rgba(0, 0, 0, .5);
 
-}
 .textoPortada h3{
   text-align: center;
-  font-size: 3vw;
+  font-size: 18pt;
   font-family: 'Montserrat';
   color: white;
   text-shadow: -4px 2px 4px rgba(0, 0, 0, .5);
@@ -87,7 +100,7 @@ figure img{
 .rectangle{
   position: absolute;
   width: 100vw;
-  height: 80vh;
+  height: 100vh;
   background-color: rgba(0, 0, 0, .5);
   z-index: 2;
 }
@@ -100,13 +113,39 @@ figure img{
   padding: 15px 10px 15px 10px;
   box-shadow: -4px 4px 4px rgba(0, 0, 0, .5);
   margin-top: 10px;
-  font-size: 22px;
-  font-weight: 800;
+  font-size: 14pt;
+  font-weight: 400;
 }
+.quienesSomos{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  padding: 10vh 5vw 10vh 5vw;
+}
+.textoQuienesSomos{
+  width: 50vw;
+  padding-right: 1vw;
+}
+
+.imagenQuienesSomos{
+  width: 50vw;
+  padding-left: 1vw;
+
+}
+.imagenQuienesSomos img{
+  width: 100%;
+}
+
 .rectangleNaranja{
   height: 3pt;
-  width: 40vh;
+  width: 40vw;
   background-color: #F46219;
+  margin: 5vh 0 5vh 0;
+}
+.vw15{
+  width: 15vw;
 }
 .nuestrosServicios{
   display: flex;
@@ -118,6 +157,7 @@ figure img{
   display: flex;
   width: 100vw;
   height: 80vh;
+  margin-top: 5vh;
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -135,6 +175,7 @@ figure img{
   flex-direction: column;
   height: 20vh;
   width: 100vw;
+
 }
 .circle{
   border-radius: 100%;
