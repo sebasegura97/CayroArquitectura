@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="76px" height="72px" viewBox="0 0 76 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-4.2%" y="-6.5%" width="105.8%" height="123.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="-5" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Arq-Gabriela-Rojas" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy" transform="translate(-200.000000, -6394.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="Contacto" transform="translate(-7.000000, 5787.000000)">
+                <g id="CONTACTO" transform="translate(7.000000, 0.000000)">
+                    <g id="Telefono" filter="url(#filter-1)" transform="translate(190.000000, 588.000000)">
+                        <g id="Phone" transform="translate(52.630178, 50.130178) rotate(-270.000000) translate(-52.630178, -50.130178) translate(22.630178, 17.630178)">
+                            <path d="M38.2802631,17.2380982 L51.3442741,3.23933618 L49.8023618,1.60174515 C47.8098449,-0.533915049 44.3282208,-0.533915049 42.3357039,1.60174515 L36.7524321,7.58612159 C35.7526533,8.65772494 35.203479,10.0802407 35.203479,11.5895411 C35.203479,13.0988416 35.7526533,14.5213573 36.7453914,15.5891874 L38.2802631,17.2380982 L38.2802631,17.2380982 Z M14.5953624,39.3342574 C12.6028455,37.1985972 9.12122141,37.1985972 7.1287045,39.3342574 L1.54543273,45.3186339 C0.549174273,46.3902372 0,47.8127529 0,49.3220534 C0,50.8313539 0.549174273,52.2538696 1.55247342,53.3292462 L3.09086546,54.9592908 L16.1267137,40.9869415 L14.5953624,39.3342574 L14.5953624,39.3342574 Z M56.1037845,8.35586484 L54.8575814,7.02013391 L41.8041313,21.0113495 L44.0923575,23.4601895 C44.423417,23.8141366 44.6094747,24.2947298 44.6094747,24.7959204 C44.6094747,25.2971111 44.423417,25.7777043 44.0923575,26.1316514 L24.4276941,47.2090327 C23.7305026,47.9196029 22.6359996,47.9196029 21.9388081,47.2090327 L19.650582,44.7564194 L6.61825406,58.7551815 L7.86445721,60.0909124 C8.77974767,61.0719577 12.2508107,64.260355 18.6226404,64.260355 C24.3115226,64.260355 33.6052411,61.5738002 45.5533018,48.7711587 C69.3966182,23.2073817 56.6705605,8.96335829 56.1037845,8.35586484 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

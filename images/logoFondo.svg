@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="646px" height="1460px" viewBox="0 0 646 1460" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>logoFondo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-0.9%" y="-0.4%" width="101.6%" height="100.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="-1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Arq-Gabriela-Rojas" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-opacity="0.490206069">
+        <g id="Desktop-HD-Copy" transform="translate(0.000000, -1037.000000)" stroke="#C0BFBF">
+            <g id="Quienes-somos" transform="translate(-189.000000, 1040.000000)">
+                <g id="logoFondo" filter="url(#filter-1)" transform="translate(417.500000, 726.510566) rotate(-360.000000) translate(-417.500000, -726.510566) translate(0.500000, 0.010566)">
+                    <path d="M351.788673,362.532951 L351.788673,367.650888" id="Shape"></path>
+                    <path d="M351.318681,383.004698 L351.318681,1451.89488" id="Shape" stroke-dasharray="3"></path>
+                    <path d="M351.788673,756.614084 L351.788673,761.732021" id="Shape" stroke-dasharray="3"></path>
+                    <path d="M362.532951,377.886761 L833.034269,848.38808" id="Shape" stroke-dasharray="3"></path>
+                    <path d="M629.370652,638.901538 L634.488588,644.019475" id="Shape" stroke-dasharray="3"></path>
+                    <circle id="Oval-Copy" stroke-dasharray="3" fill-rule="nonzero" cx="354.856046" cy="354.856046" r="253.337871"></circle>
+                    <circle id="Oval-Copy-2" stroke-dasharray="3" fill-rule="nonzero" cx="354.856046" cy="354.856046" r="354.256128"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
