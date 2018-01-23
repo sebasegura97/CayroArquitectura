@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="62px" viewBox="0 0 48 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Pin, Mark, Drop, Navigation, Location, Gps</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-4.2%" y="-6.5%" width="105.8%" height="123.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="-5" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Arq-Gabriela-Rojas" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy" transform="translate(-214.000000, -6529.000000)">
+            <g id="Contacto" transform="translate(-7.000000, 5787.000000)">
+                <g id="CONTACTO" transform="translate(7.000000, 0.000000)">
+                    <g id="Ubicacion" filter="url(#filter-1)" transform="translate(190.000000, 718.000000)">
+                        <g id="Pin,-Mark,-Drop,-Navigation,-Location,-Gps" transform="translate(23.000000, 20.000000)">
+                            <g id="Group">
+                                <path d="M45,20 C45,11.7125 38.2875,5 30,5 C21.7125,5 15,11.7125 15,20 C15,31.25 30,47.5 30,47.5 C30,47.5 45,31.25 45,20 Z M25,20 C25,17.2375 27.2375,15 30,15 C32.7625,15 35,17.2375 35,20 C35,22.7625 32.7625,25 30,25 C27.2375,25 25,22.7625 25,20 Z M12.5,50 L12.5,55 L47.5,55 L47.5,50 L12.5,50 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                                <polygon id="Shape" points="0 0 60 0 60 60 0 60"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -6,6 +6,7 @@
     <title>Cayro Arquitectura</title>
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -14,23 +15,27 @@
 
 <!-- HEADER -->
 
-    <header class="header">
+    <header class="header shadow">
       <figure>
-        <img src="images/logoblanco.svg" alt="logo Cayro">
+        <img src="images/logo.svg" alt="logo Cayro" class="logoHeader">
       </figure>
       <div class="menu">
         <a href="#inicio">INICIO</a>
+        <a href="#quienesSomos">QUIENES SOMOS</a>
         <a href="#servicios">SERVICIOS</a>
-        <a href="#servicios">LA EMPRESA</a>
-        <a href="#servicios">CONTACTO</a>
+        <a href="#galeria">GALERIA</a>
+        <a href="#ploteo">PLOTEO</a>
+        <a href="#contacto">CONTACTO</a>
       </div>
 
     </header>
+    <div class="orangeLine">
+
+    </div>
 
 <!-- PORTADA -->
 
-    <div class="portada">
-      <img class="mySlides" src="images/portada/portada0.png">
+    <div class="portada" id="inicio">
       <img class="mySlides" src="images/portada/portada1.jpeg">
       <img class="mySlides" src="images/portada/portada2.jpeg">
       <img class="mySlides" src="images/portada/portada3.jpg">
@@ -40,86 +45,221 @@
 
       </div>
       <div class="textoPortada">
-        <h1>CONSTRUCCIONES</h1>
-        <h3>BRINDAMOS SOLUCIONES A MEDIDA, DISEÑADAS PARA RESOLVER TUS NECESIDADES.</h3>
         <a href="#" class="button">NUESTROS TRABAJOS</a>
       </div>
 
     </div>
 
 <!-- QUIENES SOMOS -->
-    <div class="quienesSomos">
-      <div class="textoQuienesSomos">
-          <div class="rectangleNaranja vw15"></div>
-          <h2 class="subtitle">Quienes Somos?</h2>
-          <h3>Mision</h3>
-          <p>Somos un equipo de personas de trabajo dedicado a brindar soluciones constructivas, buscando satisfacer necesidades de nuestros clientes en pos del bienestar humano</p>
-          <h3>Vision</h3>
-          <p>Posicionarse en corto plazo en el mercado local para formar parte de la red de empresas mas reconocidas en el sector, brindando servicios de alta calidad para satisfacer las necesidades de nuestros clientes respondiendo a sus exigencias</p>
+
+    <div class="container QuienesSomos" id="quienesSomos">
+      <div class="subHeader">
+        <h1>QUIENES SOMOS</h1>
       </div>
-      <div class="imagenQuienesSomos">
-        <img src="images/portada/portada1.jpeg" alt="imagen interior de cayro">
+      <!-- <img src="images/logoFondo.svg" alt="Fondo de pantalla" class="bgLogo"> -->
+      <!-- <div class="backgroundCircle">
+
+      </div> -->
+      <div class="containerNuevo">
+        <div class="quienesSomos">
+
+          <div class="textoQuienesSomos">
+
+              <h3>Mision</h3>
+              <p>Somos un equipo de personas de trabajo dedicado a brindar soluciones
+                constructivas, buscando satisfacer necesidades de nuestros clientes en pos
+                del bienestar humano.</p>
+              <h3>Vision</h3>
+              <p>Posicionarse en corto plazo en el mercado local para formar parte de
+                la red de empresas mas reconocidas en el sector, brindando servicios
+                de alta calidad para satisfacer las necesidades de nuestros clientes
+                respondiendo a sus exigencias.</p>
+
+          </div>
+          <div class="imagenQuienesSomos">
+            <img src="images/quienesSomos.png" alt="imagen interior de cayro">
+          </div>
+
+        </div>
+        <div class="valores">
+          <h3>Valores</h3>
+          <p>
+            <strong>HONESTIDAD:</strong> Valor indispensable para el desarrollo de nuestras actividades buscando transparencia para conseguir la confianza de nuestros clientes.<br><br>
+            <strong>COMPROMISO SOCIAL:</strong> Nos comprometemos a tomar decisiones, pensando en el desarrollo y bienestar de nuestra comunidad y el medio ambiente.<br><br>
+            <strong>PROFESIONALIDAD:</strong> La experiencia y la formacion continua en el ambito nos da seguridad en lo que hacemos.<br><br>
+            <strong>CALIDAD:</strong> Porque estamos en los detalles y en la seleccion de cada uno de los materiales.<br><br>
+            <strong>OPTIMIZACION DE LOS RECURSOS:</strong> Es la importancia de aprovechar al maximo los recursos economicos y financieros de nuestros clientes, buscando siempre su satisfaccion. <br>
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+<!-- NUESTRO SERVICIOS -->
+  <div class="nuestrosServicios" id="servicios">
+    <div class="subHeader">
+      <h1>SERVICIOS</h1>
+    </div>
+
+    <div class="containerServicios">
+
+      <table>
+        <tr>
+          <th> </th>
+          <th><h4>PROYECTO Y EJECUCION DE OBRA</h4></th>
+        </tr>
+        <tr>
+          <td><img src="images/logoVineta.svg" alt="logo como vinieta" class="vineta"></td>
+          <td> <p>Viviendas familiares y multifamiliares.</p> </td>
+        </tr>
+        <tr>
+          <td><img src="images/logoVineta.svg" alt="logo como vinieta" class="vineta"></td>
+          <td> <p>Locales comerciales, depositos y galpones.</p> </td>
+        </tr>
+        <tr>
+          <td><img src="images/logoVineta.svg" alt="logo como vinieta" class="vineta"></td>
+          <td> <p>Instituciones.</p> </td>
+        </tr>
+        <tr>
+          <td><img src="images/logoVineta.svg" alt="logo como vinieta" class="vineta"></td>
+          <td> <p>Procrear.</p> </td>
+        </tr>
+        <tr>
+          <td><img src="images/logoVineta.svg" alt="logo como vinieta" class="vineta"></td>
+          <td> <p>Ampliaciones y remodelaciones.</p> </td>
+        </tr>
+
+      </table>
+      <table>
+        <tr>
+          <th> </th>
+          <th><h4>HIGIENE Y SEGURIDAD</h4></th>
+        </tr>
+        <tr>
+          <td><img src="images/logoVineta.svg" alt="logo como vinieta" class="vineta"></td>
+          <td> <p>Estudio de seguridad.</p> </td>
+        </tr>
+        <tr>
+          <td><img src="images/logoVineta.svg" alt="logo como vinieta" class="vineta"></td>
+          <td> <p>Plano de evacuacion / Plano bomberos.</p> </td>
+        </tr>
+        <tr>
+          <td><img src="images/logoVineta.svg" alt="logo como vinieta" class="vineta"></td>
+          <td> <p>Red de incendio.</p> </td>
+        </tr>
+        <tr>
+          <td><img src="images/logoVineta.svg" alt="logo como vinieta" class="vineta"></td>
+          <td> <p>Programa de seguridad.</p> </td>
+        </tr>
+        <tr>
+          <td><img src="images/logoVineta.svg" alt="logo como vinieta" class="vineta"></td>
+          <td> <p>Capacitaciones </p> </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+<!-- GALERIA -->
+
+<!-- PLOTEO -->
+  <div class="containerPloteo" id="ploteo">
+    <div class="subHeader">
+      <h1>PLOTEO</h1>
+    </div>
+    <!-- Se usa el mismo container que en servicios -->
+    <div class="containerServicios ploteo">
+      <div class="imageSlider">
+        <img src="images/ploteo/P1.jpg" alt="Fotos del sector ploteo de cayro" id="picture1" >
+        <img src="images/ploteo/P2.jpg" alt="Fotos del sector ploteo de cayro" id="picture2" >
+        <img src="images/ploteo/P3.jpg" alt="Fotos del sector ploteo de cayro" id="picture3" >
+      </div>
+      <div class="textoPloteo">
+        <table class="table1">
+          <tr>
+            <th> </th>
+            <th><h4 style="padding-left:5vw;">PAPELES</h4></th>
+          </tr>
+          <tr>
+            <td><img src="images/logoVineta.svg" alt="logo como vinieta" class="vineta"></td>
+            <td> <p>Papel obra blanco 80grs.</p> </td>
+          </tr>
+          <tr>
+            <td><img src="images/logoVineta.svg" alt="logo como vinieta" class="vineta"></td>
+            <td> <p>Papel fotografico glossy 180grs.</p> </td>
+          </tr>
+          <tr>
+            <td><img src="images/logoVineta.svg" alt="logo como vinieta" class="vineta"></td>
+            <td> <p>Vegetal 90grs.</p> </td>
+          </tr>
+        </table>
+        <table class="table2">
+          <tr>
+            <td><h4 style="text-align:center">HORARIOS</h4></td>
+          </tr>
+          <tr>
+            <td> <p style="text-align:center">Lunes y viernes 8 a 13hs y 17 </p> </td>
+          </tr>
+          <tr>
+            <td> <h4 style="text-align:center">CONTACTO</h4> </td>
+          </tr>
+          <tr>
+            <td> <p style="text-align:center">ploteo@cayrosalta.com</p> </td>
+          </tr>
+
+        </table>
       </div>
     </div>
 
-<!-- NUESTROS SERVICIOS -->
 
-    <div class="nuestrosServicios">
-      <div class="titulo">
-        <div class="rectangleNaranja"></div>
-        <h3 class="subtitle">Nuestros servicios</h3>
+  </div>
+
+<!-- CONTACTO -->
+  <div class="containerContacto" id="contacto">
+    <div class="subHeader">
+      <h1>CONTACTO</h1>
       </div>
-
-
-      <div class="containerServicios">
-
-        <div class="descripcionServicios">
-          <div class="circle">
-            <i class="material-icons md72">warning</i>
-          </div>
-          <div class="textoServicios">
-            <h4><b>Proyecto y ejecucion de obras</b></h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-          </div>
-        </div>
-
-        <div class="descripcionServicios">
-          <div class="circle">
-            <i class="material-icons md72">warning</i>
-          </div>
-          <div class="textoServicios">
-            <h4><b>Proyecto y ejecucion de obras</b></h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-          </div>
-        </div>
-
-        <div class="descripcionServicios">
-          <div class="circle">
-            <i class="material-icons md72">warning</i>
-          </div>
-          <div class="textoServicios">
-            <h4><b>Proyecto y ejecucion de obras</b></h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-          </div>
-        </div>
-
-        <div class="descripcionServicios">
-          <div class="circle">
-            <i class="material-icons md72">warning</i>
-          </div>
-          <div class="textoServicios">
-            <h4><b>Proyecto y ejecucion de obras</b></h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-          </div>
-        </div>
+      <div class="containerServicios contacto">
+        <div class="redes">
+      <a class="button buttonContacto" href="https://api.whatsapp.com/send?phone=5493874076983" target="_blank">
+        <img src="images/icons/whatsapp.svg" alt=""> <span>Whatsapp</span></a>
+      <a class="button buttonContacto" href="https://www.facebook.com/cayro.multiproductos/">
+        <img src="images/icons/Facebook.svg" alt=""> <span>Facebook</span></a>
+      <a class="button buttonContacto" href="tel:03876204580">
+        <img src="images/icons/Telefono.svg" alt=""> <span>Telefono</span></a>
+      <a class="button buttonContacto" href="https://goo.gl/maps/iso6D1YdKzw" target="_blank">
+        <img src="images/icons/gps.svg" alt=""> <span>Ubicacion</span></a>
+    </div>
+      <div class="containerFormulario">
+        <form class="formulario" action="mailto:sebasegura97@gmail.com" method="post" enctype="text/plain">
+          <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+          <input type="text" name="organizacion" id="organizacion" placeholder="Organizacion">
+          <input type="email" name="email" id="email" placeholder="E-mail" required>
+          <textarea name="name" rows="8" cols="80" placeholder="Escriba su consulta aqui"></textarea>
+          <input type="submit" name="Consulta" value="Enviar" id="inputEnviar">
+        </form>
       </div>
-
 
     </div>
+  </div>
+
+  <footer>
+    <div class="footerContainer">
+      <div class="footerContent">
+        <div class="footerLogo">
+          <img src="images/logoFooter.svg" alt="">
+        </div>
+        <div class="footerText1">
+          <span> <img src="images/icons/Facebook.svg" alt="icono de facebook"> <a href="https://www.facebook.com/cayro.multiproductos/" target="_blank"> Facebook</a> </span>
+          <span> <img src="images/icons/mail.svg" alt="icono de email"> <a href="MAILTO:consultas@cayrosalta.com" target="_blank"> consultas@cayrosalta.com</a> </span>
+        </div>
+        <div class="footerText2">
+          <span> <img src="images/icons/gps.svg" alt="icono de posicion" target="_blank"> <a href="https://goo.gl/maps/iso6D1YdKzw" target="_blank"> Dean funes 321 - Oficina 5</a> </span>
+          <span> <img src="images/icons/Telefono.svg" alt="icono de telefono"> <a href="tel:03876204580"> 0387 - 6204580</a> </span>
+        </div>
+      </div>
+    </div>
+
+  </footer>
 
 
   <script type="text/javascript" src="js/main.js">

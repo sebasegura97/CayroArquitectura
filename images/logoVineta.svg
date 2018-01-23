@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="57px" viewBox="0 0 60 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>logosvg copy 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-14.2%" y="-11.2%" width="124.5%" height="126.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="-1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" gradientTransform="translate(0.500000,0.500000),scale(1.000000,0.989784),translate(-0.500000,-0.500000)" id="radialGradient-2">
+            <stop stop-color="#F6F6F6" offset="0%"></stop>
+            <stop stop-color="#FF7F00" offset="0%"></stop>
+            <stop stop-color="#E5472C" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="22.3111979%" y1="92.9179152%" x2="70.4492188%" y2="37.8558433%" id="linearGradient-3">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#505050" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="74.8871688%" gradientTransform="translate(0.500000,0.500000),scale(1.000000,0.329928),rotate(-21.194354),translate(-0.500000,-0.500000)" id="radialGradient-4">
+            <stop stop-color="#F6F6F6" offset="0%"></stop>
+            <stop stop-color="#FF7F00" offset="0%"></stop>
+            <stop stop-color="#E5472C" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="-13.5143649%" y1="53.1883446%" x2="83.7701613%" y2="53.1883419%" id="linearGradient-5">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#505050" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Arq-Gabriela-Rojas" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy" transform="translate(-45.000000, -3075.000000)" fill-rule="nonzero">
+            <g id="servicios" transform="translate(-387.000000, 2112.000000)">
+                <g id="4-copy" transform="translate(386.000000, 569.000000)">
+                    <g id="Proyecto-y-ejecucion-de-obras" transform="translate(50.000000, 78.000000)">
+                        <g id="Group-4" transform="translate(0.000000, 63.000000)">
+                            <g id="Group-6" transform="translate(0.947802, 0.154613)">
+                                <g id="logosvg-copy-4" filter="url(#filter-1)" transform="translate(0.000000, 255.975062)">
+                                    <ellipse id="Oval" fill="url(#radialGradient-2)" cx="28.3248626" cy="23.7668329" rx="11.0418956" ry="11.1558603"></ellipse>
+                                    <path d="M29.7651099,42.628651 C19.9629281,42.6279521 11.8102304,35.4696364 11.0452194,26.19202 C9.74228342,31.6035517 11.1051103,37.283889 14.748113,41.6258833 C18.3911156,45.9678776 23.9180278,48.4992302 29.7651099,48.5037406 L29.7651099,42.628651 Z" id="Shape" fill="url(#linearGradient-3)"></path>
+                                    <path d="M42.2472527,11.9905574 C48.901515,18.8161099 49.2234466,29.6486408 42.9864313,36.8628429 C47.811288,33.8727589 51.0222225,28.8329906 51.7107319,23.1694913 C52.3992413,17.5059919 50.4904309,11.8348274 46.52438,7.7605985 L42.2472527,11.9905574 Z" id="Shape" fill="url(#radialGradient-4)" transform="translate(47.048077, 22.311721) rotate(2.000000) translate(-47.048077, -22.311721) "></path>
+                                    <path d="M12.1473348,41.3493559 C7.69382534,36.9585224 4.9623185,31.0307412 4.9623185,24.5084654 C4.9623185,11.733855 15.3022331,0.4088125 28.8049451,0.104543655 C28.0339934,0.0374484733 27.2551427,0 26.4683929,0 C11.848749,0 0.000107391057,11.9320198 0.000107391057,26.6523905 C-0.0200644904,33.742579 2.80224401,40.552373 7.85022741,45.5935162 L12.1473348,41.3493559 Z" id="Shape" fill="url(#linearGradient-5)"></path>
+                                    <ellipse id="Oval-Copy" stroke="#2E2E2E" stroke-dasharray="3" cx="28.8049451" cy="24.2518703" rx="18.2431319" ry="18.4314214"></ellipse>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

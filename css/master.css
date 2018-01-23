@@ -1,3 +1,51 @@
+@font-face {
+  font-family: SolPro;
+  src: url(../fonts/Sol_Pro/SolPro-Black.otf);
+  font-weight: 900; /* Black*/
+}
+@font-face {
+  font-family: SolPro;
+  src: url(../fonts/Sol_Pro/SolPro-BlackItalic.otf);
+  font-weight: 900; /* Black*/
+  font-style: italic;
+}
+@font-face {
+  font-family: SolPro;
+  src: url(../fonts/Sol_Pro/SolPro-Bold.otf);
+  font-weight: 800; /* Black*/
+}
+@font-face {
+  font-family: SolPro;
+  src: url(../fonts/Sol_Pro/SolPro-BoldItalic.otf);
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: SolPro;
+  src: url(../fonts/Sol_Pro/SolPro-Medium.otf);
+  font-weight: 600;
+}
+}
+@font-face {
+  font-family: SolPro;
+  src: url(../fonts/Sol_Pro/SolPro-MediumItalic.otf);
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: SolPro;
+  src: url(../fonts/Sol_Pro/SolPro-Regular.otf);
+  font-weight: 500; /*Regular*/
+}
+@font-face {
+  font-family: SolPro;
+  src: url(../fonts/Sol_Pro/SolPro-Italic.otf);
+  font-weight: 500; /*Regular*/
+  font-style: italic;
+}
+}
+
 body{
   margin: 0;
   padding: 0;
@@ -13,27 +61,42 @@ figure img{
   height: 15vh;
 }
 body h1{
-  font-size: 8vw;
+  margin: 0;
+  font-size: 38pt;
   color: white;
-  font-family: 'Montserrat';
+  font-family: SolPro;
   font-weight: 700;
-  text-shadow: -4px 2px 4px rgba(0, 0, 0, .5);
+  /*text-shadow: -4px 2px 4px rgba(0, 0, 0, .5);*/
 
 }
 body h3 {
-  font-size: 20pt;
-  font-family: Montserrat, sans-serif;
-  font-weight: 500;
+  font-size: 28pt;
+  text-transform: uppercase;
+  font-family: SolPro, sans-serif;
+  font-weight: 800;
+  color: #F46219;
+}
+body h4{
+  font-size: 22pt;
+  text-transform: uppercase;
+  font-family: SolPro, sans-serif;
+  font-weight: 600;
 }
 body p {
-  font-family: Lato, sans-serif;
+  /*font-family: Lato, sans-serif;*/
   font-size: 14pt;
-  font-weight: 300;
+  font-weight: 500;
+  font-family: SolPro, sans-serif;
+
+}
+strong{
+  color: #F46219;
+  font-weight: 600;
 }
 .subtitle{
   color: black;
   font-size: 24pt;
-  font-family: Montserrat, sans-serif;
+  font-family: SolPro, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   line-height: 1.43;
@@ -45,37 +108,52 @@ body p {
   align-items: center;
   justify-content: space-between;
   width: 100vw;
-  height: 20vh;
+  height: 19vh;
   padding-left:  5vw;
   padding-right: 5vw;
   z-index: 3;
-  position: absolute;
-  color: transparent;
+  /*position: absolute;*/
+  background: linear-gradient(to right, rgba(246, 246, 246, 0.42),rgba(255, 127, 0, 0.87), rgba(229, 71, 44, 1)); /*Gradiente naranja*/
+  /*background: linear-gradient(to right, rgba(219, 219, 219, 0.42), rgba(45, 45, 45, 1));/*Gradiente negro*/
+}
+
+.orangeLine{
+  width: 100vw;
+  height: 1vh;
+  /* background: radial-gradient(farthest-side at 50%, rgba(254, 142, 33, 1),rgba(236, 90, 40, 1)); /*Gradiente naranja*/
+  background: linear-gradient(to right, rgba(238, 94, 40, 1),rgba(253, 180, 108, 1), rgba(238, 94, 40, 1)); /*Gradiente naranja*/
+
 }
 .shadow{
   box-shadow: -4px 2px 6px rgba(0, 0, 0, 0.5);
 }
 
 .menu a{
-  font-family: 'Montserrat', sans-serif;
+  font-family: SolPro;
   text-decoration: none;
   font-size: 18px;
   /*color: #1B1215;*/
-  color: white;
+  color: black;
   margin-right: 5px;
-  font-weight: 500;
+  font-weight:500;
 }
 
 /*SLIDER PORTADA*/
 .mySlides {
   display:none;
-  height: 100vh;
-  width: 100%;}
+  height: 80vh;
+  width: auto;
+
+}
 
 .portada{
   display: flex;
   align-items: center;
   justify-content: center;
+  /*background: radial-gradient(circle, rgba(0, 0, 0, 1) , rgba(59, 59, 59, 1));*/
+  background: radial-gradient(farthest-side at 50%, rgba(254, 142, 33, 1),rgba(236, 90, 40, 0.2));
+  /*background: linear-gradient(to right, rgba(219, 219, 219, 0.42), rgba(45, 45, 45, 1));*/
+  z-index: 3;
 
 }
 .textoPortada{
@@ -87,6 +165,7 @@ body p {
   height: 30vh;
   width: 90vw;
   z-index: 3;
+  margin-top: 20vh;
 }
 
 .textoPortada h3{
@@ -100,101 +179,424 @@ body p {
 .rectangle{
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
   background-color: rgba(0, 0, 0, .5);
-  z-index: 2;
+  z-index: 3;
 }
 .button{
-  font-family: 'Montserrat';
+  font-family: SolPro;
   text-decoration: none;
   color: white;
-  background-color: #F46219;
+  background: radial-gradient(farthest-side at 50%, rgba(254, 142, 33, 1),rgba(236, 90, 40, 1)); /*Gradiente naranja*/
   border-radius: 5px;
-  padding: 15px 10px 15px 10px;
+  padding: 25px 20px 25px 20px;
   box-shadow: -4px 4px 4px rgba(0, 0, 0, .5);
   margin-top: 10px;
   font-size: 14pt;
   font-weight: 400;
 }
+.subHeader{
+  height: 15vh;
+  width: 100vw;
+  background: radial-gradient(farthest-side at 50%, rgba(254, 142, 33, 1),rgba(236, 90, 40, 1)); /*Gradiente naranja*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  position: relative;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  background: radial-gradient(farthest-side at 50%, rgba(255, 255, 255, 1),rgba(220, 220, 220, 1)); /*Gradiente radial gris*/
+
+}
+.bgLogo{
+  position: absolute;
+  width: 40vw;
+}
+/*.backgroundCircle{
+  width: 70vw;
+  height: 70vw;
+  border-radius: 50%;
+  border: 2px dashed black;
+  position: absolute;
+  border-top-color: transparent;
+  bottom: -80vh;
+  left: -10vw;
+  z-index: 1;
+}*/
 .quienesSomos{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  height: 80vh;
-  padding: 10vh 5vw 10vh 5vw;
+  height: 50vh;
+  padding: 5vh 5vw 0 5vw;
+  z-index: 3;
 }
 .textoQuienesSomos{
-  width: 50vw;
+  width: 45vw;
   padding-right: 1vw;
 }
 
 .imagenQuienesSomos{
-  width: 50vw;
+  width: 45vw;
   padding-left: 1vw;
 
 }
 .imagenQuienesSomos img{
   width: 100%;
+  max-width: 600px;
 }
-
-.rectangleNaranja{
-  height: 3pt;
-  width: 40vw;
-  background-color: #F46219;
-  margin: 5vh 0 5vh 0;
-}
-.vw15{
-  width: 15vw;
+.valores{
+  width: 90vw;
+  margin: 10px 0 5vh 0;
+  z-index: 3;
 }
 .nuestrosServicios{
+  /*z-index: 5;
+  position: relative; /*Para que los z-index funcionen se necesita que el elemento tenga position absolute relative o fixed*/
   display: flex;
   flex-direction: column;
-  align-items: center;
-  height: 100vh;
+  background: radial-gradient(farthest-side at 50%, rgba(255, 255, 255, 1),rgba(220, 220, 220, 1)); /*Gradiente radial gris*/
 }
+
 .containerServicios{
   display: flex;
+  flex-direction: row;
+  height: 85vh;
   width: 100vw;
-  height: 80vh;
-  margin-top: 5vh;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  background-image: url('../images/background.svg');
+  /*background: radial-gradient(
+        farthest-side at 50%, rgba(255, 255, 255, 0.4),rgba(220, 220, 220, 0.6)
+        )
+        ,url('../images/background.svg'); /*Gradiente radial gris + imagen de fondo*/
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  align-items: center;
+  justify-content: space-around;
 }
-.descripcionServicios{
+
+th{
+  text-align: left;
+  padding-left: 15px;
+
+}
+td p{
+  padding-left: 15px;
+  font-size: 18pt;
+  font-style: italic;
+}
+.servicios table{
+  width: 50vw;
   display: flex;
-  flex-direction: row;
-  width: 40vw
-}
-.titulo{
-  height: 20vh;
   align-items: center;
   justify-content: center;
+}
+
+.vineta{
+  width: 50px;
+  height: auto;
+}
+
+.containerNuevo{
   display: flex;
   flex-direction: column;
+  width: 100vw;
+  background-image: url('../images/background.svg');
+  /*background: radial-gradient(
+        farthest-side at 50%, rgba(255, 255, 255, 0.4),rgba(220, 220, 220, 0.6)
+        )
+        ,url('../images/background.svg'); /*Gradiente radial gris + imagen de fondo*/*/
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  align-items: center;
+  justify-content: space-around;
+}
+.galeria{
+  display: flex;
+  flex-direction: column;
+}
+.mySlides {display:none}
+.demo {cursor:pointer}
+
+
+
+
+/*PLOTEO*/
+.containerPloteo{
+  background: radial-gradient(farthest-side at 50%, rgba(255, 255, 255, 1),rgba(220, 220, 220, 1)); /*Gradiente radial gris*/
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 125vh;
+
+}
+.imageSlider{
+  height: 65vh;
+  width: 100vw;
+  position: relative;
+  align-self: self-start;
+  /*display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;*/
+}
+
+.imageSlider img{
+  max-width: 30vw;
+  height: auto;
+
+}
+#picture1{
+  opacity: 0.5;
+  position: absolute;
+  left: 10vw;
+  top: 0;
+  bottom: 0;
+  left: 10vw;
+  margin: auto;
+  z-index: 1;
+  box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.5);
+  animation-name: picture1;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  will-change: opacity, max-width;
+}
+#picture2{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  /*max-width: 60vw;*/
+  max-width: 60vw;
+  left: 20vw;
+  z-index: 3;
+  box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.5);
+  animation-name: picture2;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  will-change: opacity, max-width;
+
+
+
+}
+#picture3{
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 60vw;
+  z-index: 2;
+  box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.5);
+  animation-name: picture3;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  will-change: opacity, max-width;
+
+
+}
+@keyframes picture1 {
+  0%{}
+    33%{max-width: 60vw; left: 20vw; z-index: 3; opacity: 1;}
+      66%{max-width: 30vw; left: 60vw; z-index: 2; opacity: .5;}
+
+}
+@keyframes picture2 {
+  0%{}
+    33%{max-width: 30vw; left: 60vw; z-index: 2; opacity: .5;}
+      66%{max-width: 30vw; left: 10vw; z-index: 1; opacity: .5;}
+
+}
+@keyframes picture3 {
+  0%{}
+    33%{max-width: 30vw; left: 10vw; z-index: 1; opacity: .5;}
+      66%{max-width: 60vw; left: 20vw; z-index: 3; opacity: 1;}
+
+}
+.ploteo{
+  flex-direction: column;
+  height: 120vh;
+}
+.textoPloteo{
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.textoPloteo table{
+  width: 40vw;
+
+}
+.table1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2vw;
+}
+.table2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:2vw;
+}
+
+.table1 p , .table2 p {
+  margin: 10px;
+}
+.contacto{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../images/bgContacto.png');
+  background-size: cover;
+}
+.redes{
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  align-items: center;
+  justify-content: center;
+
+}
+.formulario{
+  /*width: 50vw;*/
+  background: radial-gradient(farthest-side at 50%, rgba(254, 142, 33, .8),rgba(236, 90, 40, .8));
+  padding: 15px;
+  border-radius: 8px;
+  width: 30vw;
+  margin: auto;
+
+}
+.buttonContacto{
+  width: 30vw;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  font-size: 22pt;
+  text-shadow: -4px 2px 6px rgba(0, 0, 0, 0.5);
+}
+.buttonContacto img{
+  max-width: 60px;
+}
+.buttonContacto span{
+  width: 100%;
+  /*margin-left: 30px;*/
+}
+.containerFormulario{
+  width: 50vw;
+  padding: 5vw;
+}
+.formulario{
+  display: flex;
+  flex-direction: column;
+}
+.formulario input{
+  margin: 10px 0 10px 0;
+  font-family: SolPro;
+  font-weight: 300;
+  padding: 5px;
+  border-radius: 3px;
+  border: none;
+}
+.formulario textarea{
+  margin: 5px 0 5px 0;
+  font-family: SolPro;
+  font-weight: 300;
+  padding: 5px;
+  border-radius: 3px;
+  border: none;
+}
+body footer{
+  height: 30vh;
+  background-image: url('../images/bgFooter.png');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.footerContainer{
   height: 20vh;
   width: 100vw;
-
-}
-.circle{
-  border-radius: 100%;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(236, 90, 40, .7);
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100px;
-  height: 100px;
-  background-color: #F46219;
 
 }
-.material-icons.md72{
-    font-size: 50px;
-    color: white
-  }
-.textoServicios{
-  margin-left: 3vw;
-  width: 30vw;
+
+.footerContent{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin: auto;
+  height: 18vh;
+  width: 100vw;
+  border: 1px dashed white;
+
 }
-.textoServicios h4{
-  font-family: 'Montserrat';
+.footerLogo{
+  width: 30vw;
+  height: 18vh;
+  border-right: 1px dashed white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerLogo img{
+  height: 12vh;
+  width: auto;
+}
+.footerText1, .footerText2{
+  display: flex;
+  height: 18vh;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px 0 20px;
+}
+.footerText1{
+  width: 35vw;
+}
+.footerText2{
+  width: 35vw;
+}
+.footerText1 img{
+  width: 30px;
+  margin-right: 10px;
+}
+.footerText2 img{
+  width: 30px;
+  margin-right: 10px;
+
+}
+.footerContent span{
+  margin-top: 10px;
+}
+.footerContent a{
+  font-family: SolPro;
+  text-decoration: none;
+  font-weight: 600;
 }
