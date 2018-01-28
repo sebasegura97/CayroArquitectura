@@ -19,14 +19,64 @@
       <figure>
         <img src="images/logo.svg" alt="logo Cayro" class="logoHeader">
       </figure>
-      <div class="menu">
-        <a href="#inicio">INICIO</a>
-        <a href="#quienesSomos">QUIENES SOMOS</a>
-        <a href="#servicios">SERVICIOS</a>
-        <a href="#galeria">GALERIA</a>
-        <a href="#ploteo">PLOTEO</a>
-        <a href="#contacto">CONTACTO</a>
+
+      <div class="menuContainer">
+
+        <div class="dropdown">
+          <a href="#inicio">
+            <button class="dropbtn">Inicio</button>
+          </a>
+        </div>
+
+        <div class="dropdown">
+          <a href="#quienesSomos">
+            <button class="dropbtn" href="#quienesSomos">Quienes somos</button>
+          </a>
+          <div class="dropdown-content">
+            <a href="#quienesSomos">Mision</a>
+            <a href="#quienesSomos">Vision</a>
+            <a href="#valores">Valores</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <a href="#servicios">
+            <button class="dropbtn">Servicios</button>
+          </a>
+          <div class="dropdown-content">
+            <a href="#servicios">Proyecto y ejecucion de obra</a>
+            <a href="#servicios">Higiene y seguridad</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <a href="#galeria">
+            <button class="dropbtn">Galeria</button>
+          </a>
+        </div>
+
+        <div class="dropdown">
+          <a href="#ploteo">
+            <button class="dropbtn">Ploteo</button>
+          </a>
+          <div class="dropdown-content">
+            <a href="#ploteo">Fotos del local</a>
+            <a href="#textoPloteo">Papeles</a>
+            <a href="#textoPloteo">Horarios</a>
+            <a href="#textoPloteo">Correo</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <a href="#contacto">
+            <button class="dropbtn">Contacto</button>
+          </a>
+        </div>
+
       </div>
+
+
+
 
     </header>
     <div class="orangeLine">
@@ -41,9 +91,7 @@
       <img class="mySlides" src="images/portada/portada3.jpg">
       <img class="mySlides" src="images/portada/portada4.JPG">
       <img class="mySlides" src="images/portada/portada5.JPG">
-      <div class="rectangle">
-
-      </div>
+      <!-- <div class="rectangle"></div> -->
       <div class="textoPortada">
         <a href="#" class="button">NUESTROS TRABAJOS</a>
       </div>
@@ -62,9 +110,7 @@
       </div> -->
       <div class="containerNuevo">
         <div class="quienesSomos">
-
           <div class="textoQuienesSomos">
-
               <h3>Mision</h3>
               <p>Somos un equipo de personas de trabajo dedicado a brindar soluciones
                 constructivas, buscando satisfacer necesidades de nuestros clientes en pos
@@ -74,14 +120,13 @@
                 la red de empresas mas reconocidas en el sector, brindando servicios
                 de alta calidad para satisfacer las necesidades de nuestros clientes
                 respondiendo a sus exigencias.</p>
-
           </div>
           <div class="imagenQuienesSomos">
-            <img src="images/quienesSomos.png" alt="imagen interior de cayro">
           </div>
-
+          <!-- <img src="images/quienesSomos.png" alt="imagen interior de cayro"> -->
         </div>
-        <div class="valores">
+
+        <div class="valores" id="valores">
           <h3>Valores</h3>
           <p>
             <strong>HONESTIDAD:</strong> Valor indispensable para el desarrollo de nuestras actividades buscando transparencia para conseguir la confianza de nuestros clientes.<br><br>
@@ -160,6 +205,42 @@
   </div>
 
 <!-- GALERIA -->
+<div class="containerGallery">
+  <div class="subHeader">
+    <h1>GALERIA</h1>
+  </div>
+  <div class="gallery">
+    <img src="images/galeria/1.jpg"  data-src="images/galeria/1.jpg"  alt="Imagenes de obras de cayro" class="galleryImage">
+    <img src="images/galeria/2.jpeg" data-src="images/galeria/2.jpeg"  alt="Imagenes de obras de cayro" class="galleryImage">
+    <img src="images/galeria/3.jpg"  data-src="images/galeria/3.jpg"  alt="Imagenes de obras de cayro" class="galleryImage">
+    <img src="images/galeria/4.jpg"  data-src="images/galeria/4.jpg"  alt="Imagenes de obras de cayro" class="galleryImage" style="transform:rotate(90deg)">
+    <img src="images/galeria/5.jpg"  data-src="images/galeria/5.jpg"  alt="Imagenes de obras de cayro" class="galleryImage">
+    <img src="images/galeria/6.jpg"  data-src="images/galeria/6.jpg"  alt="Imagenes de obras de cayro" class="galleryImage">
+    <img src="images/galeria/7.jpg"  data-src="images/galeria/7.jpg"  alt="Imagenes de obras de cayro" class="galleryImage" style="transform:rotate(90deg)">
+    <img src="images/galeria/8.jpg"  data-src="images/galeria/8.jpg"  alt="Imagenes de obras de cayro" class="galleryImage" style="transform:rotate(90deg)">
+    <img src="images/galeria/9.jpg"  data-src="images/galeria/9.jpg"  alt="Imagenes de obras de cayro" class="galleryImage">
+    <img src="images/galeria/10.jpg" data-src="images/galeria/10.jpg"  alt="Imagenes de obras de cayro" class="galleryImage">
+    <img src="images/galeria/11.jpg" data-src="images/galeria/11.jpg"  alt="Imagenes de obras de cayro" class="galleryImage">
+    <img src="images/galeria/12.jpg" data-src="images/galeria/12.jpg"  alt="Imagenes de obras de cayro" class="galleryImage" style="transform:rotate(90deg)">
+    <img src="images/galeria/13.jpg" data-src="images/galeria/13.jpg"  alt="Imagenes de obras de cayro" class="galleryImage">
+    <img src="images/galeria/14.jpg" data-src="images/galeria/14.jpg"  alt="Imagenes de obras de cayro" class="galleryImage" style="transform:rotate(90deg)">
+    <img src="images/galeria/15.jpg" data-src="images/galeria/15.jpg"  alt="Imagenes de obras de cayro" class="galleryImage">
+    <img src="images/galeria/16.jpg" data-src="images/galeria/16.jpg"  alt="Imagenes de obras de cayro" class="galleryImage" style="transform:rotate(90deg)">
+    <img src="images/galeria/17.jpg" data-src="images/galeria/17.jpg"  alt="Imagenes de obras de cayro" class="galleryImage">
+    <img src="images/galeria/18.jpg" data-src="images/galeria/18.jpg"  alt="Imagenes de obras de cayro" class="galleryImage">
+    <img src="images/galeria/19.jpg" data-src="images/galeria/19.jpg"  alt="Imagenes de obras de cayro" class="galleryImage">
+    <img src="images/galeria/20.jpg" data-src="images/galeria/20.jpg"  alt="Imagenes de obras de cayro" class="galleryImage">
+    <img src="images/galeria/21.jpg" data-src="images/galeria/21.jpg"  alt="Imagenes de obras de cayro" class="galleryImage" style="transform:rotate(90deg)">
+    <img src="images/galeria/22.jpeg" data-src="images/galeria/22.jpeg"  alt="Imagenes de obras de cayro" class="galleryImage">
+
+
+    <button type="button" name="button" onclick="plusDivs(-1)" class="galleryButton galleryButtonLeft"> < </button>
+    <button type="button" name="button" onclick="plusDivs(1)" class="galleryButton galleryButtonRight"> > </button>
+  </div>
+
+</div>
+
+
 
 <!-- PLOTEO -->
   <div class="containerPloteo" id="ploteo">
@@ -173,7 +254,7 @@
         <img src="images/ploteo/P2.jpg" alt="Fotos del sector ploteo de cayro" id="picture2" >
         <img src="images/ploteo/P3.jpg" alt="Fotos del sector ploteo de cayro" id="picture3" >
       </div>
-      <div class="textoPloteo">
+      <div class="textoPloteo" id="textoPloteo">
         <table class="table1">
           <tr>
             <th> </th>
@@ -214,6 +295,7 @@
   </div>
 
 <!-- CONTACTO -->
+
   <div class="containerContacto" id="contacto">
     <div class="subHeader">
       <h1>CONTACTO</h1>
@@ -222,9 +304,9 @@
         <div class="redes">
       <a class="button buttonContacto" href="https://api.whatsapp.com/send?phone=5493874076983" target="_blank">
         <img src="images/icons/whatsapp.svg" alt=""> <span>Whatsapp</span></a>
-      <a class="button buttonContacto" href="https://www.facebook.com/cayro.multiproductos/">
+      <a class="button buttonContacto" href="https://www.facebook.com/" target="_blank">
         <img src="images/icons/Facebook.svg" alt=""> <span>Facebook</span></a>
-      <a class="button buttonContacto" href="tel:03876204580">
+      <a class="button buttonContacto" href="tel:3874533443">
         <img src="images/icons/Telefono.svg" alt=""> <span>Telefono</span></a>
       <a class="button buttonContacto" href="https://goo.gl/maps/iso6D1YdKzw" target="_blank">
         <img src="images/icons/gps.svg" alt=""> <span>Ubicacion</span></a>
@@ -242,6 +324,13 @@
     </div>
   </div>
 
+
+  <div class="orangeLine">
+
+  </div>
+
+<!-- FOOTER -->
+
   <footer>
     <div class="footerContainer">
       <div class="footerContent">
@@ -249,12 +338,12 @@
           <img src="images/logoFooter.svg" alt="">
         </div>
         <div class="footerText1">
-          <span> <img src="images/icons/Facebook.svg" alt="icono de facebook"> <a href="https://www.facebook.com/cayro.multiproductos/" target="_blank"> Facebook</a> </span>
-          <span> <img src="images/icons/mail.svg" alt="icono de email"> <a href="MAILTO:consultas@cayrosalta.com" target="_blank"> consultas@cayrosalta.com</a> </span>
+          <span> <img src="images/icons/Facebook.svg" alt="icono de facebook"> <a href="https://www.facebook.com/" target="_blank"> Facebook</a> </span>
+          <span> <img src="images/icons/mail.svg" alt="icono de email"> <a href="MAILTO:contacto@cayrosalta.com?subject=Consulta Web" target="_blank"> contacto@cayrosalta.com</a> </span>
         </div>
         <div class="footerText2">
-          <span> <img src="images/icons/gps.svg" alt="icono de posicion" target="_blank"> <a href="https://goo.gl/maps/iso6D1YdKzw" target="_blank"> Dean funes 321 - Oficina 5</a> </span>
-          <span> <img src="images/icons/Telefono.svg" alt="icono de telefono"> <a href="tel:03876204580"> 0387 - 6204580</a> </span>
+          <span> <img src="images/icons/gps.svg" alt="icono de posicion" target="_blank"> <a href="https://goo.gl/maps/iso6D1YdKzw" target="_blank"> Dean funes 321 - L 5</a> </span>
+          <span> <img src="images/icons/Telefono.svg" alt="icono de telefono"> <a href="tel:"> 0387 - 6204580</a> </span>
         </div>
       </div>
     </div>
@@ -265,5 +354,15 @@
   <script type="text/javascript" src="js/main.js">
 
   </script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.8.2/blazy.min.js">
+
+  </script>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.8.2/blazy.min.js">
+  var bLazy = new Blazy({
+    selector: 'img'
+});
+  </script>
+
   </body>
 </html>
