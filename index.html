@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=0" >
     <title>Cayro Arquitectura</title>
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -16,11 +16,11 @@
 <!-- HEADER -->
 
     <header class="header shadow">
-      <figure>
+      <figure class="animationIn">
         <img src="images/logo.svg" alt="logo Cayro" class="logoHeader">
       </figure>
 
-      <div class="menuContainer">
+      <div class="menuContainer animationIn">
 
         <div class="dropdown">
           <a href="#inicio">
@@ -69,7 +69,7 @@
 
         <div class="dropdown">
           <a href="#contacto">
-            <button class="dropbtn">Contacto</button>
+            <button class="dropbtn ">Contacto</button>
           </a>
         </div>
 
@@ -79,7 +79,7 @@
 
 
     </header>
-    <div class="orangeLine">
+    <div class="orangeLine ol1 animationIn">
 
     </div>
 
@@ -92,8 +92,8 @@
       <img class="mySlides" src="images/portada/portada4.JPG">
       <img class="mySlides" src="images/portada/portada5.JPG">
       <!-- <div class="rectangle"></div> -->
-      <div class="textoPortada">
-        <a href="#" class="button">NUESTROS TRABAJOS</a>
+      <div class="textoPortada animationIn">
+        <a href="#galeria" class="button">SEGURIDAD EN TU ELECCION</a>
       </div>
 
     </div>
@@ -202,6 +202,31 @@
         </tr>
       </table>
     </div>
+
+  </div>
+
+  <div class="containerServiciosResponsive">
+    <div class="subHeader">
+      <h1>SERVICIOS</h1>
+    </div>
+    <div class="ploteoPapeles serviciosTextoContainer">
+      <h4>PROYECTO Y EJECUCION DE OBRA</h4>
+      <div class="ploteoPapelesTexto serviciosTexto"> <img src="images/logoVineta.svg" alt="logo como vineta"> <p>Viviendas familiares y multifamiliares.</p> </div>
+      <div class="ploteoPapelesTexto serviciosTexto"> <img src="images/logoVineta.svg" alt="logo como vineta"> <p>Locales comerciales, depositos y galpones.</p> </div>
+      <div class="ploteoPapelesTexto serviciosTexto"> <img src="images/logoVineta.svg" alt="logo como vineta"> <p>Instituciones.</p> </div>
+      <div class="ploteoPapelesTexto serviciosTexto"> <img src="images/logoVineta.svg" alt="logo como vineta"> <p>Procrear.</p> </div>
+      <div class="ploteoPapelesTexto serviciosTexto"> <img src="images/logoVineta.svg" alt="logo como vineta"> <p>Ampliaciones y remodelaciones.</p> </div>
+    </div>
+    <div class="ploteoPapeles serviciosTextoContainer higiene">
+      <h4>HIGIENE Y SEGURIDAD</h4>
+      <div class="ploteoPapelesTexto serviciosTexto"> <img src="images/logoVineta.svg" alt="logo como vineta"> <p>Estudio de seguridad.</p> </div>
+      <div class="ploteoPapelesTexto serviciosTexto"> <img src="images/logoVineta.svg" alt="logo como vineta"> <p>Plano de evacuacion / Plano bomberos.</p> </div>
+      <div class="ploteoPapelesTexto serviciosTexto"> <img src="images/logoVineta.svg" alt="logo como vineta"> <p>Red de incendio.</p> </div>
+      <div class="ploteoPapelesTexto serviciosTexto"> <img src="images/logoVineta.svg" alt="logo como vineta"> <p>Programa de seguridad.</p> </div>
+      <div class="ploteoPapelesTexto serviciosTexto"> <img src="images/logoVineta.svg" alt="logo como vineta"> <p>Capacitaciones.</p> </div>
+    </div>
+
+
   </div>
 
 <!-- GALERIA -->
@@ -278,7 +303,7 @@
             <td><h4 style="text-align:center">HORARIOS</h4></td>
           </tr>
           <tr>
-            <td> <p style="text-align:center">Lunes y viernes 8 a 13hs y 17 </p> </td>
+            <td> <p style="text-align:center">Lunes y viernes 8 a 13hs y 17 a 21hs </p> </td>
           </tr>
           <tr>
             <td> <h4 style="text-align:center">CONTACTO</h4> </td>
@@ -292,8 +317,36 @@
     </div>
 
 
+
   </div>
 
+  <div class="ploteoResponsive">
+    <div class="subHeader">
+      <h1>PLOTEO</h1>
+    </div>
+    <div class="imageSliderResponsive">
+      <img src="images/ploteo/P1.jpg" alt="Fotos del sector ploteo de cayro"  id="imgResponsive1">
+      <img src="images/ploteo/P2.jpg" alt="Fotos del sector ploteo de cayro"  id="imgResponsive2">
+      <img src="images/ploteo/P3.jpg" alt="Fotos del sector ploteo de cayro"  id="imgResponsive3">
+    </div>
+
+    <div class="ploteoResponsiveTexto animationIn">
+      <div class="ploteoPapeles">
+        <h4>PAPELES</h4>
+        <div class="ploteoPapelesTexto"> <img src="images/logoVineta.svg" alt="logo como vineta"> <p>Papel obra blanco 80grs.</p> </div>
+        <div class="ploteoPapelesTexto"> <img src="images/logoVineta.svg" alt="logo como vineta"> <p>Papel fotografico glossy 180grs.</p> </div>
+        <div class="ploteoPapelesTexto"> <img src="images/logoVineta.svg" alt="logo como vineta"> <p>Papel Vegetal 90grs.</p> </div>
+      </div>
+      <div class="ploteoHorarios animationIn">
+        <h4>HORARIOS</h4>
+        <p>Lunes y viernes 8 a 13hs y 17 a 21hs.</p>
+      </div>
+      <div class="ploteoContacto animationIn">
+        <h4>CONTACTO</h4>
+        <p>ploteo@cayrosalta.com</p>
+      </div>
+    </div>
+  </div>
 <!-- CONTACTO -->
 
   <div class="containerContacto" id="contacto">
@@ -301,7 +354,7 @@
       <h1>CONTACTO</h1>
       </div>
       <div class="containerServicios contacto">
-        <div class="redes">
+      <div class="redes">
       <a class="button buttonContacto" href="https://api.whatsapp.com/send?phone=5493874076983" target="_blank">
         <img src="images/icons/whatsapp.svg" alt=""> <span>Whatsapp</span></a>
       <a class="button buttonContacto" href="https://www.facebook.com/" target="_blank">
@@ -311,8 +364,11 @@
       <a class="button buttonContacto" href="https://goo.gl/maps/iso6D1YdKzw" target="_blank">
         <img src="images/icons/gps.svg" alt=""> <span>Ubicacion</span></a>
     </div>
+    <div class="orangeLine responsive">
+
+    </div>
       <div class="containerFormulario">
-        <form class="formulario" action="mailto:consultas@cayrosalta.com" method="post" enctype="text/plain">
+        <form class="formulario" action="mailto:contacto@cayrosalta.com" method="post" enctype="text/plain">
           <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
           <input type="text" name="organizacion" id="organizacion" placeholder="Organizacion">
           <input type="email" name="email" id="email" placeholder="E-mail" required>
