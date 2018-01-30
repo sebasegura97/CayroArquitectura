@@ -57,3 +57,24 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";
 }
+
+// BURGER menu
+//
+// var menu = document.getElementsByClassName("burgerButton");
+// menu.addEventListener(click, burguerButton(){
+//     menu.style.display = "none";
+// });
+// var burgerButton = document.getElementsByClassName("burgerButton");
+// burgerButton(){
+//   burgerButton.style.display = "none";
+// }
+
+var burgerButton = document.getElementById("burgerButton");
+var exitButton = document.getElementById("exitButton");
+var menuResponsiveContainer = document.getElementById("menuResponsiveContainer");
+function changeButton(){
+  burgerButton.classList.toggle('active');
+  exitButton.classList.toggle('active');
+  menuResponsiveContainer.classList.toggle('menuOpen');
+  // exitButton.style.display = "block";
+};

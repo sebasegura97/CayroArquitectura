@@ -79,8 +79,30 @@
 
 
     </header>
-    <div class="orangeLine ol1 animationIn">
+    <div class="orangeLine ol1 animationIn"> </div>
 
+    <div class="menuResponsive">
+      <div class="buttonContainer">
+        <img src="images/icons/burgerMenu.svg" onclick="changeButton()" id="burgerButton" class="burgerButton"></img>
+        <img src="images/icons/exit.svg" onclick="changeButton()" class="exitButton" id="exitButton"></img>
+      </div>
+
+      <div class="menuResponsiveContainer" onclick="changeButton()" id="menuResponsiveContainer">
+
+          <a href="#quienesSomos">Inicio</a>
+          <a href="#quienesSomos">Quienes somos</a>
+          <a href="#servicios">SERVICIOS</a>
+          <a href="#galeria">GALERIA</a>
+          <a href="#ploteo">PLOTEO</a>
+          <a href="#contacto">CONTACTO</a>
+
+      </div>
+    </div>
+
+    <div class="aperturaAnimada">
+      <img src="images/logo.svg" alt="logo de cayro" class="logoAnimado">
+      <div class="aperturaAnimadaLeft"></div>
+      <div class="aperturaAnimadaRight"></div>
     </div>
 
 <!-- PORTADA -->
@@ -95,6 +117,8 @@
       <div class="textoPortada animationIn">
         <a href="#galeria" class="button">SEGURIDAD EN TU ELECCION</a>
       </div>
+
+
 
     </div>
 
@@ -419,6 +443,8 @@
     selector: 'img'
 });
   </script>
+
+
 
   </body>
 </html>
