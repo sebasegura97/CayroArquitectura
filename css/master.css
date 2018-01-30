@@ -152,7 +152,7 @@ strong{
   height: 19vh;
   padding-left:  5vw;
   padding-right: 5vw;
-  z-index: 3;
+  /*z-index: 3;*/
   /*position: absolute;*/
   background: linear-gradient(to right, rgba(246, 246, 246, 0.42),rgba(255, 127, 0, 0.87), rgba(229, 71, 44, 1)); /*Gradiente naranja*/
   /*background: linear-gradient(to right, rgba(219, 219, 219, 0.42), rgba(45, 45, 45, 1));/*Gradiente negro*/
