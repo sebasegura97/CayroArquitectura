@@ -1025,10 +1025,12 @@ body footer{
   animation: aperturaAnimadaLeft 1s  ease-in-out;
   animation-delay: 3s;
   animation-fill-mode: forwards;
+  will-change: position;
 
 }
 .aperturaAnimadaRight{
   width: 51vw;
+  will-change: position;
   height: 100vh;
   right: -1vw;
   position: absolute;
