@@ -46,6 +46,47 @@
 }
 }
 
+/*MENU LEONIDAS ICON FONT*/
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon.eot?6s6d3k');
+    src:    url('../fonts/icomoon.eot?6s6d3k#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?6s6d3k') format('truetype'),
+        url('../fonts/icomoon.woff?6s6d3k') format('woff'),
+        url('../fonts/icomoon.svg?6s6d3k#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-envelope:before {
+    content: "\e900";
+}
+.icon-phone:before {
+    content: "\e901";
+}
+.icon-menu:before {
+    content: "\e902";
+}
+.icon-close:before {
+    content: "\e903";
+}
+
+
 body{
   margin: 0;
   padding: 0;
@@ -741,6 +782,15 @@ body footer{
   position: relative;
   z-index: 4;
 }
+.menuResponsive{
+  display: none;
+}
+.logoAnimado{
+  display: none;
+}
+.aperturaAnimada{
+  display: none;
+}
 
 /*MEDIA QUERIES*/
 
@@ -875,6 +925,149 @@ body footer{
   body footer{
     height: 100vh;
   }
+
+
+  /*MENU RESPONSIVE*/
+
+
+  .menuResponsive{
+    display: flex;
+  }
+  .menuResponsiveContainer{
+    /*display: none;*/
+    position: fixed;
+    z-index: 4;
+    width: 102vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*border: 1px solid red;*/
+    background-color: rgba(254, 142, 33, .7);
+    top: 0;
+    bottom: 0;
+    left: -102vw;
+    right: 0;
+    transition: .3s;
+  }
+  .menuOpen{
+    left: 0;
+  }
+  .menuResponsiveContainer a{
+    color: white;
+    text-decoration: none;
+    font-family: SolPro;
+    text-transform: uppercase;
+    font-size: 18pt;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 1px dashed white;
+    /*border-top: 1px dashed white;*/
+    width: 100%;
+    text-align: center;
+  }
+  .menuResponsiveContainer a:first-child{
+    border-top: 1px dashed white;
+
+  }
+  .buttonContainer{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(254, 142, 33, 1);
+  }
+  .menuResponsive img{
+    height: 60px;
+    z-index: 5;
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin: 20px;
+    background-color: rgba(254, 142, 33, 1);
+    padding: 10px;
+    border-radius: 50%;
+  }
+  .exitButton{
+    display: none;
+  }
+  .active{
+    display: block;
+  }
+
+/*FIN MENU RESPONSIVE*/
+
+/*LOGO ANIMADO RESPONSIVE*/
+.aperturaAnimada{
+  display: block;
+}
+.logoAnimado{
+  display: block;
+  position: absolute;
+  z-index: 7;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80vw;
+  top: -100vh;
+  animation: logoAnimado 3.2s;
+}
+
+.aperturaAnimadaLeft{
+  width: 51vw;
+  height: 100vh;
+  left: 0;
+  position: absolute;
+  z-index: 6;
+  background:radial-gradient(farthest-side at 50%, rgba(255, 255, 255, 1),rgba(220, 220, 220, 1));
+  animation: aperturaAnimadaLeft 1s  ease-in-out;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+
+}
+.aperturaAnimadaRight{
+  width: 51vw;
+  height: 100vh;
+  right: -1vw;
+  position: absolute;
+  z-index: 6;
+  background:radial-gradient(farthest-side at 50%, rgba(255, 255, 255, 1),rgba(220, 220, 220, 1));
+  animation: aperturaAnimadaRight 1s ease-in-out;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+.animationIn{
+  animation-delay: 3s;
+}
+@keyframes aperturaAnimadaLeft {
+  100%{
+    left: -55vw;
+  }
+}
+@keyframes aperturaAnimadaRight {
+  100%{
+    right: -55vw;
+  }
+}
+
+@keyframes logoAnimado {
+  0%{}
+    10%{
+      top:  35vh;
+    }
+    30%{
+      top:  27vh;
+    }
+    50%{
+      top: 31vh;
+    }
+    80%{
+      top: 31vh;
+    }
+}
+
   .footerContainer{
     height: 80vh;
   }
@@ -913,6 +1106,11 @@ body footer{
   body h1{
     font-size: 28pt;
 }
+
+
+
+
+
   .imagenQuienesSomos{
     display: none;
 }
