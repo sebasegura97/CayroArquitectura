@@ -78,3 +78,24 @@ function changeButton(){
   menuResponsiveContainer.classList.toggle('menuOpen');
   // exitButton.style.display = "block";
 };
+
+
+// GESTOS TOUCH
+// var $body = document.body;
+//
+// var gestos = new Hammer($body);
+// gestos.on('swipeleft', changeButton);
+// gestos.on('swiperight', changeButton);
+
+var $gallery = document.getElementById("gallery");
+var gestosGallery = new Hammer($gallery);
+
+gestosGallery.on('swipeleft', moreDivs);
+gestosGallery.on('swiperight', lessDivs);
+
+function moreDivs() {
+  showDivs(slideIndex += 1);
+}
+function lessDivs() {
+  showDivs(slideIndex -= 1);
+}
