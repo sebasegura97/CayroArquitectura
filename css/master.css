@@ -90,7 +90,9 @@
 body{
   margin: 0;
   padding: 0;
-  width: 100vw;
+  /*width: 100vw;*/
+  width: 100%;
+  overflow-x: hidden;
   display: flex;
   justify-content:flex-start;
   flex-direction: column;
@@ -998,6 +1000,16 @@ body footer{
 
 /*FIN MENU RESPONSIVE*/
 
+/*GALERIA*/
+.gallery{
+  display: flex;
+  align-items: center;
+}
+
+.galleryImage{
+  width: 100%;
+  height: auto;
+}
 /*LOGO ANIMADO RESPONSIVE*/
 .aperturaAnimada{
   display: block;
