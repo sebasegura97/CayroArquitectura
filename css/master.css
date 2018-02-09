@@ -86,6 +86,9 @@
     content: "\e903";
 }
 
+html{
+  overflow-x: hidden;
+}
 
 body{
   margin: 0;
