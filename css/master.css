@@ -580,7 +580,7 @@ td p{
   width: 100vw;
   align-items: center;
   justify-content: center;
-  background-image: url('../images/bgContacto.png');
+  background-image: url('../images/bgContacto.jpeg');
   background-size: cover;
 }
 .redes{
@@ -1182,19 +1182,28 @@ body footer{
   .ploteoPapeles{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: center;
+    max-width: 80vw;
 
     /*height: 50vh;*/
+  }
+  .ploteoPapelesTexto p {
+    text-align: left;
   }
   .ploteoResponsiveTexto{
     display: flex;
     flex-direction: column;
+    align-items: center;
     height: 100vh;
+  }
+  .ploteoResponsiveTexto h4{
+    align-self: center;
   }
   .ploteoPapelesTexto{
     display: flex;
     flex-direction: row;
+    justify-content: left;
   }
   .ploteoPapelesTexto img{
     width: 50px;
@@ -1311,6 +1320,7 @@ body footer{
   }
   .footerLogo img{
     height: 22vh;
+    max-width: 80vw;
   }
   .footerText1, .footerText2{
     padding: 0;
